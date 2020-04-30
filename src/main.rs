@@ -22,7 +22,7 @@ struct Opt {
     #[argh(option, short='r', default="48000")]
     sample_rate: u32,
 
-    /// threshold of maximum i16 sample value, default 250
+    /// threshold of maximum i16 sample value, default 250.
     /// Audio louder than that triggers ON mode
     #[argh(option, short='t', default="1000")]
     threshold: i16,
